@@ -1,0 +1,40 @@
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  background-color: #f0f0f0;
+}
+
+.banner-links {
+  display:flex;
+  gap: 30px;
+  align-items: center;
+  
+
+
+}
+
+/* .background-container {
+  background-image: url('./assets/Toothless.jpeg');
+  backkground-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  width: 200px;
+
+} */
+
+.products {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.product1 {
+  background-color: yellowgreen;
+}
+
+.product2 {
+  background-color: yellowgreen;
+}
