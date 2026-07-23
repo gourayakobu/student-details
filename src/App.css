@@ -15,15 +15,16 @@
 
 }
 
-/* .background-container {
-  background-image: url('./assets/Toothless.jpeg');
-  backkground-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 200px;
-  width: 200px;
+.background-container {
+    background-image: url('./assets/Toothless.jpeg');
+      backkground-size: cover;
+        background-position: center;
+          background-repeat: no-repeat;
+            min-height: 200px;
+              width: 200px;
 
-} */
+              }
+
 
 .products {
   display: flex;
@@ -37,4 +38,127 @@
 
 .product2 {
   background-color: yellowgreen;
+}
+
+
+
+.student {
+  background-color: yellow;
+  padding: 3px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+
+}
+
+.next-student {
+  background-color: red;
+  color: black;
+  button-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+
+
+}
+
+.next-student:hover {
+  background-color: green;
+  color: white;
+  animation: shake 5s;
+  transition:all 5s ease-in-out;
+}
+
+.card-dark {  
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: merienda, cursive;
+  background: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.card {
+  width: 280px;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  
+
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.card button:hover {
+  background: darkorange;
+}
+
+
+
+.form-container {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.button {
+  background-color:aqua;
+  height: 30px;
+  width: 90px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: red;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
